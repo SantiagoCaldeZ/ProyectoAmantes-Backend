@@ -1,0 +1,30 @@
+{
+  "name": "amantes-api",
+  "version": "1.0.0",
+  "description": "Ejercicio: API tradicional para encontrar mi amante ideal. Construyan una aplicación simple donde los usuarios puedan registrar perfiles de posibles amantes y luego consultar candidatos según un interés específico, con un backend desacoplado del frontend y siguiendo una arquitectura en capas clara. Ejercicio en parejas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoCaldeZ/ProyectoAmantes-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SantiagoCaldeZ/ProyectoAmantes-Backend/issues"
+  },
+  "homepage": "https://github.com/SantiagoCaldeZ/ProyectoAmantes-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
